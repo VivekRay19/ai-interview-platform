@@ -1,3 +1,6 @@
+"use client";
+
+/* GPT */
 export default function InterviewAIHomePage() {
   const features = [
     {

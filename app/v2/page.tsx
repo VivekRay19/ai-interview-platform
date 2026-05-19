@@ -1,5 +1,6 @@
 "use client";
 
+/* Gemini */
 import React, { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 
