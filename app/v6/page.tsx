@@ -2,8 +2,6 @@
    HERO COMPONENT
 ========================= */
 
-/*perplexity*/
-
 function Hero() {
   return (
     <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 text-white py-24 px-4">
