@@ -1,6 +1,5 @@
 "use client";
 
-/* Claude */
 import React, {
   useState,
   useEffect,
