@@ -1,6 +1,5 @@
 "use client";
 
-/*Grok*/
 import React from "react";
 import {
   Play,
