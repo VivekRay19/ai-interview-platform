@@ -1,6 +1,5 @@
 "use client";
 
-/*codex*/
 export default function Home() {
   const features = [
     {
