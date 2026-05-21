@@ -1,0 +1,36 @@
+/* app/v8/globals.css */
+
+/* 1. Import Tailwind's core engine */
+@import "tailwindcss";
+
+/* 2. Optional: Define your project's theme variables (CSS-first configuration) */
+@theme {
+  /* You can keep the default Tailwind colors, or define your own */
+  /* If you need custom colors, define them here as CSS variables */
+  /* For this professional theme, the default palette is sufficient. */
+}
+
+/* 3. Add your custom base styles, which can now safely use @apply */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply text-gray-900 bg-white antialiased;
+  }
+}
+
+/* Simple, professional scrollbar (no @apply needed here) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
